@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.imagecontainer {
+    background-color: aqua;
+    height: 800px;
+    min-width: 500px;
+    flex-grow: 0;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    top: 350px;
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagetext {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 64px;
+}
+
+.odin {
+    width: auto;
+    height: 70%;
+}
+
+.content {
+    background-color: bisque;
+    height: 800px;
+    width: auto;
+    min-width: 300px;
+    flex-grow: 1;
+    font-family: 'Roboto';
+}
+
+.container {
+    display: flex;
+    height: 800px;
+    width: 1200px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+body {
+    background-color: cadetblue;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+}
+
+.toptext {
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(245, 202, 150, 0.685);
+}
+
+.formcontainer {
+    padding: 20px;
+}
+
+input, label {
+    display: block;
+}
+
+.inputfields {
+    float: left;
+    margin-left: 40px;
+}
+
+fieldset {
+    border: 0;
+}
+
+button {
+    bottom: 300px;
+    margin-top: 1%;
+    margin-left: 53px;
+    background-color: rgba(3, 112, 3, 0.678);
+    border: 3px solid rgba(0, 128, 0, 0.76);
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.container {
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+.btncontainer {
+    padding: 30px;
+    background-color: rgba(245, 202, 150, 0.685);
+}
